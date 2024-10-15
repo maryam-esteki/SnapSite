@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+body{
+    background-color: #EEEEEE;
+}
+.button a{
+    text-align: center;
+}
+.op{
+    display: flex;
+    justify-content: space-between;
+}
+.ca-p{
+position: relative;
+}
+.carousel-cap{
+    position: absolute;
+    top: 0;
+    display: flex !important;
+    align-items: center !important;
+    margin: auto;
+}
+.text-img h1{
+    display: flex;
+    align-items: self-start;
+    font-family: "EB Garamond", serif;
+}
+.text-img p{
+    font-family: "EB Garamond", serif;
+}
+.text-img .b-img{
+    display: flex;
+    align-items: self-start;
+    font-family: "EB Garamond", serif;
+    
+}
+.b-img input{
+    background-color: #31363F;
+    border: 1px solid #31363F;
+}
+.b-img input:hover{
+    background-color: #EEEEEE;
+    color: #31363F;
+    border: 1px solid #31363F;
+}
+.t-img-3{
+    color: #31363F;
+}
+.t-img-2 h1{
+    color: #31363F;
+}
+.t-img-2 p{
+    color: #b4b2b2;
+}
+.box-6{
+    font-family: "EB Garamond", serif;
+}
+
+.img-c-f img{
+    border: 8px solid #31363F;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height:80px;
+}
+.card-f{
+    max-width: 380px;
+    height: 300px !important;
+    background-color: #dcdcdc;
+}
+.card-f a{
+    background-color: #31363F;
+    color: #EEEEEE;
+    border: 1px solid #31363F;
+    font-weight: bold;
+}
+.card-f a:hover{
+    background-color: #EEEEEE;
+    color: #31363F;
+    border: 1px solid #31363F;
+}
+.row-f{
+    gap: 20px;
+}
+
+.card-b-f h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 143px; */
+}
+/* .card-title{
+    position: absolute;
+    top: -208px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+} */
+.card-t{
+    position: absolute;
+    top: 42px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.c-forms{
+    font-family: "EB Garamond", serif;
+
+}
+ .num-form{
+    
+    width: 70%;
+    background-color: #31363F !important;
+    border: 2px solid #31363F;
+    outline: 10px solid #EEEEEE;
+ }
+.num-form img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-left: 8px; 
+}
+.form-control{
+    background-color: #EEEEEE;
+}
+.form-floating label{
+    color: #222831 !important;
+}
+.form-floating label{
+    color: #222831 !important;
+}
+
+.form-box{
+    background-color: #31363F;
+}
+.btn-form{
+    background-color: #222831;
+    color: #EEEEEE;
+    font-family: "EB Garamond", serif;
+    border: 1px solid #222831;
+}
+.btn-form:hover{
+    border: 1px solid #EEEEEE;
+    background-color: #222831;
+    color: #76ABAE;
+}
+.border{
+    width: 444px;
+    height: 397.6px;
+}
+.recommended{
+    font-family: "EB Garamond", serif;
+}
+.team-t-s{
+    display:none;
+    transition: 2s !important;
+}
+.team-item:hover .team-t-s{
+    display: block;
+    transform: translatey(-150px);
+}
+.sla{
+    width: 700px;
+    display: flex !important;
+    justify-content: center !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 20px;
+}
+.carousel-2-t{
+    font-family: "EB Garamond", serif;
+}
+.img2-carousel{
+    width: 100px;
+    height: 100px;
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.carousel-r{
+    position: relative;
+}
+.carousel-2{
+    width: 492px;
+    height: 451px;
+
+}
+.img-left{
+    transition: 1s;
+}
+.img-left img{
+    width: 80px;
+    height: 80px;
+    border: 8px solid #EEEEEE;
+    outline: dashed #31363F ;
+    transition: 1s;
+}
+.img-left img:hover{
+    transform: scale(1.5);
+}
+.img-left-2{
+    margin-top: 70px;
+    width: 70px !important;
+    height: 70px !important;
+}
+.img-left-3{
+    width: 50px !important;
+    height: 50px !important;
+}
+ .img-right img{
+    width: 80px;
+    height: 80px;
+    border: 8px solid #EEEEEE;
+    outline: dashed #31363F ;
+    transition: 1s;
+ }
+ .img-right img:hover{
+    transform: scale(1.5);
+}
+ .img-right-2{
+    margin-top: 70px;
+    width: 70px !important;
+    height: 70px !important;
+}
+.img-right-3{
+    /* margin-top: 70px; */
+    width: 50px !important;
+    height: 50px !important;
+}
+.btn-carousel-2 .btn-l{
+    /* position: absolute;
+    bottom: 10px;
+    left: 240px;
+    right: 0; */
+    display: flex;
+    align-items: self-end;
+    /* justify-content:  !important; */
+}
+.btn-carousel-2 .btn-r{
+    display: flex;
+    align-items: self-end;
+    width: 93%;
+    top: 100;
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 10px;
+}
+.btn-l{
+    width: 95%;
+    margin-bottom: 10px;
+}
+.btn-rr{
+    display: flex;
+    justify-content: center;
+    align-items: self-end;
+}
+.row-f p{
+    color: #31363F;
+}
+.go-to-top{
+    background-color: #76ABAE !important;
+}
+.position-fixed{
+    bottom: 30px;
+    right: 30px;
+    background-color: #222831 !important;
+}
+.position-fixed i{
+    color: #EEEEEE;
+}
+.position-fixed:hover{
+    background-color: #76ABAE !important;
+    border: 1px solid #222831;
+}
+
+
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex: 1;
+}
+.social-icons a {
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: #31363F !important;
+    font-family: "EB Garamond", serif;
+}
+
+footer a {
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #76ABAE !important;
+}
+footer h5,p{
+    color: #EEEEEE;
+}
+footer li{
+    color: #EEEEEE !important;
+}
+.btn-footer{
+    background-color: #31363F;
+    color: #EEEEEE;
+}
+.btn-footer:hover{
+    background-color: #31363F;
+    color: #76ABAE;
+}
+
