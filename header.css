@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+.navbar-bg{
+    background-color: #EEEEEE !important;
+}
+.sub-bg{
+    background-color: #31363F;
+}
+.dropdown-menu{
+    background-color: #31363F;
+}
+.dropdown-menu a:hover{
+    background-color: #31363F !important;
+    color: #76ABAE;
+
+}
+.navbar-collapse a{
+    color: #EEEEEE ;
+    font-family: "EB Garamond", serif;
+}
+.navbar-collapse a:hover{
+    color: #76ABAE;
+}
+.first-a{
+    color: #76ABAE !important;
+}
+.navbar h1{
+    color: #31363F !important;
+    font-family: "EB Garamond", serif;
+}
+.btn-header{
+    background-color: #31363F;
+    color: #EEEEEE;
+    font-family: "EB Garamond", serif;
+}
+.btn-header:hover{
+    background-color: #31363F;
+    color: #76ABAE;
+}
+
+nav h1{
+    font-weight: bold;
+}
+nav{
+    position: static !important;
+}
+nav img{
+    width: 150px;
+    height: 80px !important;
+    border: 4px solid #31363F !important;
+}
+ .dropdown-menu{
+    transition:1s;
+    display: none;
+ }
+ .dropdown:hover .dropdown-menu{
+    display: block;
+    transform: translatey(2px);
+ }
