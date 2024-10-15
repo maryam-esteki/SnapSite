@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1;
+    font-family: "EB Garamond", serif;
+}
+.social-icons a {
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: #1c1c1c;
+    font-family: "EB Garamond", serif;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #007bff;
+}
