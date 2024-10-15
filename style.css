@@ -68,7 +68,51 @@ footer a:hover {
     background-color: #31363F;
     color: #76ABAE;
 }
-
+.btn {
+    transition: 0.5s;
+  }
+  
+  .btn.btn-primary,
+  .btn.btn-outline-primary:hover,
+  .btn.btn-secondary,
+  .btn.btn-outline-secondary:hover {
+    color: #ffffff;
+  }
+  
+  .btn.btn-primary:hover {
+    background: var(--secondary);
+    border-color: var(--secondary);
+  }
+  
+  .btn.btn-secondary:hover {
+    background: var(--primary);
+    border-color: var(--primary);
+  }
+  
+  .btn-square {
+    width: 38px;
+    height: 38px;
+  }
+  
+  .btn-sm-square {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .btn-lg-square {
+    width: 48px;
+    height: 48px;
+  }
+  
+  .btn-square,
+  .btn-sm-square,
+  .btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+  }
 nav h1{
     font-weight: bold;
 }
