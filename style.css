@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+hr {
+    width: 20%;
+    text-align: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "EB Garamond", serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* start-header */
+
+.bg-header {
+    background-image: url(img/pic-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 60px 0;
+
+}
+
+.bg-header::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+     height: 302px;
+    background-color: #fdfdfd8e;
+    z-index: 0;
+}
+
+h1, .headermenu {
+    position: relative;
+  
+}
+
+.headermenu ul {
+    padding: 0;
+}
+
+.headermenu ul li {
+    list-style: none;
+    display: inline;
+}
+
+.headermenu ul li+li::before {
+    content: "/";
+    color: #000;
+    padding: 0 5px 0 0;
+    font-weight: 800;
+}
+
+.headermenu ul li a {
+    color: #222831;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.headermenu ul li a:hover {
+color: #76ABAE;
+}
+
+ul li a[href="./menuitem2.html"] {
+    color: #76ABAE;
+}
+
+
+/* end-header */
+
+/* start-section1 */
+
+section {
+
+    max-width: 1320px;
+}
+
+.section05 {
+    max-width: 660px;
+}
+
+.image-1 {
+    width: 100%;
+}
+
+.text-1 {
+
+    width: 200px;
+    height: 200px;
+}
+
+.full {
+    max-width: 100%;
+}
+
+
+.color1 {
+    background-color: #76ABAE;
+}
+
+.color2 {
+    background-color: #EEEEEE;
+}
+
+.icons a {
+    color: #76ABAE;  
+}
+
+.icons a:hover{
+      
+       background-color: #76ABAE;
+       color: #EEEEEE;   
+      
+}
+
+
+/* end-section1 */
+
+/* star-section3 */
+
+
+/* end-section3 */
+
+.desc {
+    transition:all ease-out 0.2s;
+}
+
+.desc .artfooter {
+    display: none;
+}
+
+.art:hover .desc {
+/* transform: translateY(-80px); */
+margin-top: -80px;
+opacity: 0.95;
+}
+
+.art:hover .desc .artfooter {
+    display: block;
+}
