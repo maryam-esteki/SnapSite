@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+nav h1{
+    font-weight: bold;
+}
+nav{
+    position: static !important;
+    
+}
+nav img{
+    width: 130px;
+    height: 120px;
+}
+ .dropdown-menu{
+    transition: 1s;
+    display: none;
+ }
+ .dropdown:hover .dropdown-menu{
+    display: block;
+    transform: translatey(2px);
+ }
+ html, body{
+    height: 100%;
+    margin: 0;;
+}
+.border-boxes{
+    background-color: #1c1c1c;
+}
+.row{
+    font-family: "EB Garamond", serif;
+}
+.row img{
+    width: 64px;
+    height: 64px;
+}
+.container-fluid img{
+    width: 30px;
+    height: 30px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #EEEEEE
+}
+main{
+    flex: 1;
+}
+.social-icons a {
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: #1c1c1c;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #007bff;
+}
+.carousel{
+    font-family: "EB Garamond", serif;
+}
+.carousel-1-w{
+    /* width: 100% !important; */
+    height: 330px !important;
+}
+.btn-caption-3{
+    border: none;
+    color: #76ABAE !important;
+}
+.text-img h1{
+    display: flex;
+    align-items: flex-start;
+}
+.carousel-cap{
+    position: absolute;
+    top: 0;
+    display: flex !important;
+    align-items: center !important;
+    margin: auto;
+
+}
+.text-img .btn:hover{
+    color: rgba(30, 142, 206, 0.848) !important;
+}
+.text-img p{
+    display: inline;
+}
+.text-img p:last-child{
+    color: rgba(30, 142, 206, 0.848);
+    margin-left: 10px;
+    margin-top: 6px;
+}
+.fourth-sub{
+    color: #76ABAE !important;
+}
+.fiirst-a{
+    color: #EEEEEE !important ;
+}
+.fiirst-a:hover{
+    color: #76ABAE !important ;
+}
+.go-to-top{
+    background-color: #76ABAE !important;
+}
+.position-fixed{
+    bottom: 30px;
+    right: 30px;
+    background-color: #222831 !important;
+}
+.position-fixed i{
+    color: #EEEEEE;
+}
+.position-fixed:hover{
+    background-color: #76ABAE !important;
+    border: 1px solid #222831;
+}
+footer {
+    background-color: #31363F !important;
+    font-family: "EB Garamond", serif;
+}
+
+footer a {
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #76ABAE !important;
+}
+footer h5,p{
+    color: #EEEEEE;
+}
+footer li{
+    color: #EEEEEE !important;
+}
+.btn-footer{
+    background-color: #31363F;
+    color: #EEEEEE;
+}
+.btn-footer:hover{
+    background-color: #31363F;
+    color: #76ABAE;
+}
