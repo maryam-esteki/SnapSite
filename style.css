@@ -1,0 +1,250 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1;
+    font-family: "EB Garamond", serif;
+}
+.social-icons a {
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: #1c1c1c;
+    font-family: "EB Garamond", serif;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #007bff;
+}
+.navbar-bg{
+    background-color: #EEEEEE !important;
+}
+.sub-bg{
+    background-color: #31363F;
+}
+.dropdown-menu{
+    background-color: #31363F;
+}
+.dropdown-menu a:hover{
+    background-color: #31363F !important;
+    color: #76ABAE;
+
+}
+.navbar-collapse a{
+    color: #EEEEEE ;
+    font-family: "EB Garamond", serif;
+}
+.navbar-collapse a:hover{
+    color: #76ABAE;
+}
+.first-a{
+    color: #76ABAE !important;
+}
+.navbar h1{
+    color: #31363F !important;
+    font-family: "EB Garamond", serif;
+}
+.btn-header{
+    background-color: #31363F;
+    color: #EEEEEE;
+    font-family: "EB Garamond", serif;
+}
+.btn-header:hover{
+    background-color: #31363F;
+    color: #76ABAE;
+}
+.btn {
+    transition: 0.5s;
+  }
+  
+  .btn.btn-primary,
+  .btn.btn-outline-primary:hover,
+  .btn.btn-secondary,
+  .btn.btn-outline-secondary:hover {
+    color: #ffffff;
+  }
+  
+  .btn.btn-primary:hover {
+    background: var(--secondary);
+    border-color: var(--secondary);
+  }
+  
+  .btn.btn-secondary:hover {
+    background: var(--primary);
+    border-color: var(--primary);
+  }
+  
+  .btn-square {
+    width: 38px;
+    height: 38px;
+  }
+  
+  .btn-sm-square {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .btn-lg-square {
+    width: 48px;
+    height: 48px;
+  }
+  
+  .btn-square,
+  .btn-sm-square,
+  .btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+  }
+nav h1{
+    font-weight: bold;
+}
+nav{
+    position: static !important;
+}
+nav img{
+    width: 130px;
+    height: 120px;
+}
+ .dropdown-menu{
+    transition: 1s;
+    display: none;
+ }
+ .dropdown:hover .dropdown-menu{
+    display: block;
+    transform: translatey(2px);
+ }
+ .first-b{
+    width: 64px !important;
+    height: 64px !important;
+    border-radius: 5px;
+ }
+.page-header {
+    background: url(./image/sumsung.png) center center repeat;
+    background-size: auto;
+    font-family: "EB Garamond", serif;
+  }
+  .page-header1 {
+    background: url(./image/image1.png) center center repeat;
+    background-size: auto;
+    font-family: "EB Garamond", serif;
+  }
+  .color{
+    color: teal;
+  }
+  
+  .page-header .breadcrumb-item,
+  .page-header .breadcrumb-item a {
+    font-weight: 500;
+  }
+  
+  .page-header .breadcrumb-item a,
+  .page-header .breadcrumb-item + .breadcrumb-item::before {
+    color: #696e77;
+  }
+  
+  .page-header .breadcrumb-item a:hover,
+  .page-header .breadcrumb-item.active {
+    color: var(--primary);
+  }
+  .service-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: teal;
+    color: #EEEEEE;
+    border-radius: 10px;
+}
+
+.service-box img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 15px;
+    border: 3px solid teal;
+}
+
+.service-box h4 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.service-box p {
+    color: black;
+    font-weight: 800;
+}
+
+.service-box a {
+    color: black;
+    font-weight: bold;
+}
+.service-box a:hover{
+    color: teal;
+    text-decoration: underline;
+}
+  .card {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease;
+    width: 350px;
+    height: 450px; 
+  }
+  
+  .card-info {
+    position: relative;
+    background-color: white;
+    bottom: 0;
+    transition: transform 0.3s ease;
+    padding: 20px;
+  }
+  
+  .card-body h5 {
+    font-size: 1.5rem;
+  }
+  
+  .card-body p {
+    font-size: 1.2rem;
+  }
+  
+  .social-links {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .card:hover .card-info {
+    transform: translateY(-50px);
+  }
+  
+  .card:hover .social-links {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .social-icon {
+    color: #333;
+    font-size: 28px;
+    margin: 0 15px;
+  }
+  
+  .social-icon:hover {
+    color: #007bff;
+  }
